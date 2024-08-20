@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(158, 122, 243);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    color: white;
+    width: 100%;
+    grid-area: header;
+}
+
+nav ul {
+    color: white;
+}
+
+.body_inicio {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.info{
+    display: flex;
+    padding: 3rem;
+}
+
+.gif img{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.inicio{
+    background-color: rgb(255, 255, 255);
+    grid-area: inicio;  
+    padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.taylor_swift{
+    background-color: rgb(255, 255, 255);
+    grid-area: taylor_swift;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.su_musica{
+    background-color:  rgb(255, 255, 255);
+    grid-area: su_musica;
+    padding:1rem;
+    text-align: justify;
+}
+
+.redes_sociales{
+    background-color: rgb(255, 255, 255);
+    grid-area: redes_sociales;
+    padding: 1rem;
+}
+
+footer{
+    background-color:  rgb(158, 122, 243);
+    grid-area: footer;
+    padding:1rem;
+    font-family: "Playfair Display", serif;
+}
+
+.introduccion{
+    font-size: 20px;
+    padding: 130px;
+    text-align: justify; 
+}
+
+.tet_img {
+    align-items: center;
+    padding-top: 60px;
+    width: 600px;
+    float: left
+}
+
+
+.body_albumes div{
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+
+.body_albumes{
+    height: 100vh;
+}
+
+.titulo_albumes{
+    padding-left: 20px;
+    padding-top: 20px;   
+}   
+
+
+.contenedor_albumes{
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;    
+    text-align: center;
+}
+
+.album-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}   
+
+.red_social_img {
+    width: 60px;
+    height: 60px;
+}   
+
+nav ul a {
+    text-decoration: none;
+    color:rgb(64, 27, 148);
+    padding-right: 10px;
+}   
+
+nav ul a:hover {
+    color: white;
+    transition: 0.8s;
+}   
+
+.videoss {
+    width: 430px;
+    padding: 40px;
+    padding-top: 60px;
+}
+
+.videoss:hover {
+    background-color: rgb(229, 189, 255);
+}
+
+.setlist ul {
+    padding-bottom: 30px;
+}
+
+.boton {
+    color: rgb(158, 122, 243);
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.boton button {
+   padding: 30px;
+   border-radius: 8px;
+   font-size: larger;
+   color: rgb(226, 226, 226);
+   background-color: rgb(158, 122, 243);
+}
+
+.album-img:hover{
+    width: 210px;
+    transition: 0.3s;
+}
+
+h1 h2 h3 h4 p {
+    font-family: "Playfair Display", serif;
+    color: black;
+}
+
+.titulo_setlist{
+    color: rgb(158, 122, 243);
+    padding-top:150px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.titulo_the_eras_tour{
+    padding: 1rem;
+}
+
+.setlist_the_eras_tour{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contenedor_videos{
+    text-align: center;
+    height: 77vh;
+    padding: 0.5rem;
+}
+
+.info_debut{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_debut h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_fearless{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_fearless h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_speaknow h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_speaknow{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_red h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_red{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_1989 h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_1989{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_reputation h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_reputation{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_lover h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_lover{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_folklore h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_folklore{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_evermore h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_evermore{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_midnights h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_midnights{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+
+.info_ttpd h1{
+    color:rgb(158, 122, 243);
+}
+
+.info_ttpd{
+    height: 100vh;
+    width: 80%;
+    padding: 2rem;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
